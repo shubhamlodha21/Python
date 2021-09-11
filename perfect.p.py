@@ -1,3 +1,10 @@
+
+'''input:-lower bound:20
+          upper bound:30
+output:- perfect number  28
+description:check for perfect number
+date: 11-09-2021
+Author name: Shubham Lodha'''
 def perfect(l,u):
      for num in range(l,u):
           sum=0

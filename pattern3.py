@@ -6,8 +6,8 @@ output:-
 * * * *
 * * * * *
 description:right half Star Pyramid 
-date: 28-08-2021
-Author name: Shruti Nahar'''
+date: 11-09-2021
+Author name: Shubham Lodha'''
 x=5
 m=(2*x)-2
 for i in range(0,x):

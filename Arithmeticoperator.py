@@ -8,8 +8,8 @@ output:Num1 + Num2=  30
        20%3=  2
        22//7=  3
 description:perform Arithmetic Operation
-date: 24-08-2021
-Author name: Shruti Nahar'''
+date: 16-09-2021
+Author name: Shubham Lodha'''
 num1=10
 num2=20
 print("Num1 + Num2= ",num1+num2)

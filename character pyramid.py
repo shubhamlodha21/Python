@@ -6,8 +6,8 @@ output:-
      G H I J
     K L M N O 
 description:character Pyramid pattern
-date: 30-08-2021
-Author name: Shruti Nahar'''
+date: 16-09-2021
+Author name: Shubham Lodha'''
 x=5
 n=65
 m=(2*x)-2

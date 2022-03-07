@@ -1,30 +1,20 @@
-#Function Name:BubbleSort
-#Input: 5 (10 50 90 -5 0)
-
-#Output: Sorted Array is [-5,0,10,50,90]
-
-#Description:Bubble-Sort  
-#Date: 11/07/2021
-#Author: Shubham Lodha
-
-
+#Bubble_Sort
 
 from array import *
 x=array('i',[])
-print("Enter How Many Elements..?",end='')
-n=int(input())
+iNo=int(input("Enter number of Elements you want:"))
 
-for i in range (n):
-	print("Enter Elements:",end='')
-	x.append(int(input()))
-print("Original Array:",x)
+print("Enter Elements:")
+for i in range(iNo):
+    x.append(int(input()))
 
-#Bubble Sort
-for i in range(n-1):
-	for j in range(n-1-i):
-		if x[j]>x[j+1]:
-			t=x[j]
-			x[j]=x[j+1]
-			x[j+1]=t
+for i in range (iNo-1):
+    for j in range (0,(iNo-1-i)):
+        if x[j]>x[j+1]:
+            temp=x[j]
+            x[j]=x[j+1]
+            x[j+1]=temp
 
-print("Sorted Array is:",x)
+print("Sorted List is:")
+for i in range (iNo):
+    print(x[i],end=" ")

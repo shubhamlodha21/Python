@@ -7,4 +7,4 @@
 
 var1,var2,var3=[int(x) for x in input("Enter Numbers").split('@')]
 
-print("Summation is ",var1+var2+var3)
+print("Summation is ",var1+var2 + var3)
